@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.Pages.FlexLayoutDemo"
+             Title="Flex Layout Demo"
+             BackgroundColor="White">
+    <FlexLayout Direction="Column">
+        <Label BackgroundColor="DarkGray" Text="Welcome to Coding Droplets" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"
+               Padding="10"/>
+        <FlexLayout FlexLayout.Grow="1" Direction="Row">
+            <VerticalStackLayout BackgroundColor="DarkOliveGreen" FlexLayout.Basis="50">
+                
+            </VerticalStackLayout>
+            <VerticalStackLayout BackgroundColor="White" FlexLayout.Grow="1">
+                <Label Text="This is content area" FontSize="18"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout BackgroundColor="DarkOliveGreen" FlexLayout.Basis="50">
+
+            </VerticalStackLayout>
+        </FlexLayout>
+        <Label BackgroundColor="DarkGray" Text="Thank You" HorizontalTextAlignment="Center" Padding="10" FontAttributes="Bold"/>
+    </FlexLayout>
+</ContentPage>

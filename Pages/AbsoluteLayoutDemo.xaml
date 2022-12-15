@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.Pages.AbsoluteLayoutDemo"
+             Title="Absolute Layout Demo"
+             BackgroundColor="White">
+    <AbsoluteLayout>
+        <Button BackgroundColor="#0061a7" TextColor="White" Text="Fixed"
+                AbsoluteLayout.LayoutBounds="10,20,200,50"/>
+        
+        <Button BackgroundColor="#0061a7" TextColor="White" Text="Height Proportional"
+                AbsoluteLayout.LayoutFlags="HeightProportional"
+                AbsoluteLayout.LayoutBounds="10,90,300,.2"/>
+        
+        <Button BackgroundColor="#0061a7" TextColor="White" Text="Width Proportional"
+                AbsoluteLayout.LayoutFlags="WidthProportional"
+                AbsoluteLayout.LayoutBounds="10,250,.4,50"/>
+        
+        <Button BackgroundColor="#0061a7" TextColor="White" Text="Size Proportional"
+                AbsoluteLayout.LayoutFlags="SizeProportional"
+                AbsoluteLayout.LayoutBounds="10,300,.4,.2" />
+
+        <Button BackgroundColor="#0061a7" TextColor="White" Text="X Proportional"
+                AbsoluteLayout.LayoutFlags="XProportional"
+                AbsoluteLayout.LayoutBounds=".1,450,200,50"/>
+
+        <Button BackgroundColor="Orange" TextColor="White" Text="Y Proportional"
+                AbsoluteLayout.LayoutFlags="YProportional"
+                AbsoluteLayout.LayoutBounds="50,.7,200,50"/>
+
+        <Button BackgroundColor="Red" TextColor="White" Text="Position Proportional"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds=".2,.7,200,50"/>
+
+        <Button BackgroundColor="Black" TextColor="White" Text="All"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".2,.5,.4,.2"/>
+    </AbsoluteLayout>
+</ContentPage>

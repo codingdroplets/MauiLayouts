@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiLayouts.Pages.HorizontalStackLayoutDemo"
+             Title="Horizontal Stack Layout Demo"
+             BackgroundColor="White">
+    <ScrollView Orientation="Horizontal">
+        <HorizontalStackLayout Padding="20" Spacing="10">
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+            <Label Text="Demo Label" VerticalOptions="FillAndExpand" BackgroundColor="#7c7c7c" TextColor="White" />
+        </HorizontalStackLayout>
+    </ScrollView>
+</ContentPage>
